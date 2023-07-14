@@ -4,7 +4,6 @@ import '../css/App.css';
 function Footer(){
     return(
         <>
-        
         <div className='footer-container'>
             <div className='seperate-line'/>
             @2023 Gan ZK <br/>
