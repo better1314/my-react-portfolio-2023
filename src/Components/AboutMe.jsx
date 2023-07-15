@@ -14,7 +14,7 @@ function Description(){
                         <h2>Gan Zhi Kiat</h2>
                         <div className="social-media-icons">
                             <a href="#x">
-                                <FontAwesomeIcon icon={faFacebook} size='25'/>
+                                <FontAwesomeIcon icon={faFacebook}/>
                             </a>
                             <a href="#x">
                                 <FontAwesomeIcon icon={faInstagram}/>

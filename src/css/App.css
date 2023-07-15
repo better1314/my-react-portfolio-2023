@@ -254,6 +254,20 @@
   background-color: #57caf4;
 }
 
+.myjourney-container{
+  width: 100vw;
+  max-width: 100vw;
+  height: auto;
+}
+
+.date-timeline{
+  color: #fff;
+}
+
+.textalign-left{
+  text-align: left;
+}
+
 .footer-container{
   width: 100vw;
   max-width: 100vw;
@@ -266,7 +280,7 @@
   font-size: smaller;
 }
 
-@media only screen and (min-width:320px) and (max-width:420px){/*mobile responsie*/
+@media only screen and (min-width:320px) and (max-width:480px){/*mobile responsie*/
   .header-title{
     width: 50%;
     font-size:1em;
@@ -324,6 +338,7 @@
   }
 
   .myskill-container {
+    margin-bottom: 50px;
     height: auto;
   }
   .myskill-container .myskill-upper-container, .myskill-container .myskill-lower-container{
@@ -332,27 +347,74 @@
   }
   
   .content-box{
-    width:100vw;
+    width:90vw;
     height:40vh;
-    margin: 10px 0px;
+    margin: 10px 20px;
   }
 
   .content-box .content-itself {
     font-size: 0.8rem;
-}
-}
+  }
 
-@media only screen and (min-width:400px) and (max-width:480px){/*big mobile responsie*/
-  .header-title{
-    width: 50%;
+  .date-timeline{
+    color: grey;
   }
 }
 
 @media only screen and (min-width:481px){/*tablet responsie*/
-} 
+  .my-picture{
+    width: 100vw;
+    height: 80vh;
+    margin-top: 10%;
+  }
+  
+  .my-picture img{
+    width:50%;
+    object-fit:contain;
+  }
 
-@media only screen and (min-width:768px){/*laptop responsie*/
+  .right-content{
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+  }
 
+  .main-container {
+    height: 65vh;
+  }
+
+  .span-a{
+    left:15%;
+  }
+
+  .span-short-description{
+    left: 0%;
+    bottom: -20%;
+    font-size: 0.6rem;
+    width: 100%;
+  }
+
+  .loop{
+    margin-left:22%;
+    width:100%
+  }
+
+  .description-container{
+    margin-bottom:15%;
+  }
+
+  .myskill-container{
+    margin-bottom: 50%;
+  }
+
+  .myskill-container .myskill-upper-container, .myskill-container .myskill-lower-container{
+    height:auto;
+    font-size: 0.8rem;
+  }
+
+  .content-box {
+    height: 80vh;
+  }
 } 
 
 @media only screen and (min-width:1025px){/*large screen responsie*/
