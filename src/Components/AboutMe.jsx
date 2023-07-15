@@ -10,7 +10,7 @@ function Description(){
         <div className='description-container'>
             <div className="desctiption-center">
                 <div className="profile-image">
-                        <img src="https://assets.codepen.io/285131/neongirl.jpg" alt='imge-me'/>
+                        <img src="/assets/images/profile.jpg" alt='imge-me'/>
                         <h2>Gan Zhi Kiat</h2>
                         <div className="social-media-icons">
                             <a href="#x">

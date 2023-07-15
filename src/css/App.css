@@ -149,7 +149,7 @@
   width:150px;
   height:150px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .social-media-icons{
@@ -361,7 +361,7 @@
   }
 }
 
-@media only screen and (min-width:481px){/*tablet responsie*/
+@media only screen and (min-width:481px) and (max-width:900px) {/*tablet responsie*/
   .my-picture{
     width: 100vw;
     height: 80vh;
@@ -415,8 +415,4 @@
   .content-box {
     height: 80vh;
   }
-} 
-
-@media only screen and (min-width:1025px){/*large screen responsie*/
-  
 } 
