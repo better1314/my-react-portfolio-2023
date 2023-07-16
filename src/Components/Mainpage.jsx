@@ -18,7 +18,7 @@ function Mainpage(){
         <div className='main-container'>
             <div className='main-left-content'>
                 <div className='my-picture'>
-                    <img src='/assets/images/me.jpg' alt="Gan Zhi Kiat" />
+                    <img src='/assets/images/me.webp' alt="Gan Zhi Kiat" />
                 </div>
             </div>
             <div className='main-right-content'>

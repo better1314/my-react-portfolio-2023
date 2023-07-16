@@ -10,12 +10,22 @@ import MyJourney from './Components/MyJourney';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Mainpage/>
-      <AboutMe/>
-      <MySkills/>
-      <MyJourney/>
-      <Footer/>
+      <div className='snap-scroll-container'>
+        <div className='snap-scroll-child'>
+        <Header/>
+        <Mainpage/>
+        </div>
+        <div className='snap-scroll-child'>
+        <AboutMe/>
+        </div>
+        <div className='snap-scroll-child'>
+        <MySkills/>
+        </div>
+        <div className='snap-scroll-child-end'>
+        <MyJourney/>
+        <Footer/>
+        </div>
+      </div>
     </div>
   );
 }
