@@ -13,16 +13,16 @@ function Description(){
                         <img src="/assets/images/profile.jpg" alt='imge-me'/>
                         <h2>Gan Zhi Kiat</h2>
                         <div className="social-media-icons">
-                            <a href="#x">
+                            <a href="https://www.facebook.com/zhikiat.gan/">
                                 <FontAwesomeIcon icon={faFacebook}/>
                             </a>
-                            <a href="#x">
+                            <a href="https://www.instagram.com/zhikiat_gan/">
                                 <FontAwesomeIcon icon={faInstagram}/>
                             </a>
-                            <a href="#x">
+                            <a href="https://www.linkedin.com/in/zhikiatgan/">
                                 <FontAwesomeIcon icon={faLinkedin}/>
                             </a>
-                            <a href="#x">
+                            <a href="https://github.com/better1314">
                                 <FontAwesomeIcon icon={faGithub}/>
                             </a>
                         </div>

@@ -8,7 +8,7 @@ function Header(){
             <div className='header-title'>My Portfolio.</div>
             <div className='header-button'>
                 <button type="button">Download</button>
-            </div>
+            </div> 
         </div>
         <div className='seperate-line'/>
         </>
