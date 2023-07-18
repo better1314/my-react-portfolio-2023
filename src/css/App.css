@@ -138,14 +138,12 @@
 
 .span-a{
   position:absolute;
-  left:30%;
-  bottom: 0%;
+  left:29%;
 }
 
 .span-short-description{
   position: absolute;
   left: 30%;
-  bottom: -30%;
   font-size: medium;
 }
 
@@ -357,7 +355,6 @@
 
   .span-short-description{
     left: 3%;
-    bottom: -20%;
     font-size: 0.8rem;
     width: 100%;
   }
@@ -445,6 +442,7 @@
 
   .myskill-container{
     margin-bottom: 50%;
+    overflow: unset;
   }
 
   .myskill-container .myskill-upper-container, .myskill-container .myskill-lower-container{
@@ -456,3 +454,20 @@
     height: 80vh;
   }
 } 
+
+@media only screen and (min-width:901px) and (max-width:1060px) {
+  .loop{
+    margin-left:22%;
+    width:100%
+  }
+
+  .span-a{
+    left:15%;
+  }
+
+  .span-short-description{
+    left: 1%;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+}
