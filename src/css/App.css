@@ -312,6 +312,33 @@
   font-size: smaller;
 }
 
+/*chatroom*/
+.whole-chat-room{
+  width: 99vw;
+  max-width: 99vw;
+  height: 88vh;
+  overflow-y: scroll;
+  /* border:1px solid red; */
+}
+
+.chat-input-section{
+  width: 99vw;
+  height: 5vh;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  /* border:1px solid green; */
+}
+
+.input-text{
+  padding-left: 8%;
+  width: 80%;
+}
+
+.send-button{
+  padding-left: 20px;
+}
+
 @media only screen and (min-width:320px) and (max-width:480px){/*mobile responsie*/
   .snap-scroll-container{
     scroll-snap-type: initial;
