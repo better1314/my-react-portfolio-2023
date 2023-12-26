@@ -30,10 +30,9 @@ function MySkills(){
                 <div className="content-box">
                     <div className="sub-title"><span className='blue-word'>C</span>oding Skill</div>
                     <div className="content-itself">
-                        <ProgressBar title='Java ' width='80'/>
+                        <ProgressBar title='Java' width='80'/>
                         <ProgressBar title='HTML/CSS' width='80'/>
-                        <ProgressBar title='ReactJS' width='50'/>
-                        <ProgressBar title='ExpressJS' width='50'/>
+                        <ProgressBar title='JS Frameworks' width='50'/>
                     </div>
                 </div>
             </div>

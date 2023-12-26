@@ -19,8 +19,10 @@ function HomePage() {
         <div className='snap-scroll-child'>
         <MySkills/>
         </div>
-        <div className='snap-scroll-child-end'>
+        <div className='snap-scroll-child'>
         <MyJourney/>
+        </div>
+        <div className='snap-scroll-child'>
         <Footer/>
         </div>
       </div>

@@ -19,9 +19,9 @@ function Timeline(){
                     icon={<FontAwesomeIcon icon={faBriefcase}/>}
                 >
                     <h3 className="vertical-timeline-element-title">Hong Leong Bank Malaysia</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Executive</h4>
+                    <h4 className="vertical-timeline-element-subtitle">Senior Executive</h4>
                     <p>
-                    Coding with Java, SQL, Spring and promoted from Graduate Trainee
+                    Coding with Java, SQL, Spring and promoted from Graduate Trainee.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -73,7 +73,7 @@ function Timeline(){
                     <h3 className="vertical-timeline-element-title">Tunku Abdul Rahman Univercity College</h3>
                     <h4 className="vertical-timeline-element-subtitle">Bachelor's Degree in Information Technology</h4>
                     <p>
-                    Setapak, Kuala Lumpur
+                    @Setapak, Kuala Lumpur
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
