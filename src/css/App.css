@@ -453,7 +453,6 @@
 
   .span-short-description{
     left: 0%;
-    bottom: -20%;
     font-size: 0.6rem;
     width: 100%;
   }
@@ -493,7 +492,7 @@
   }
 
   .span-short-description{
-    left: 1%;
+    left: 0;
     font-size: 0.8rem;
     width: 100%;
   }

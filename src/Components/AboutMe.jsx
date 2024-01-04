@@ -30,7 +30,7 @@ function Description(){
                 <div className="content-section">
                     A student who graduated from TARUC, Bachelor's Degree in Information Technology (Internet Technology) with CGPA 3.63, made a dean list during my second year. 
                     Activly joining lots of competitions and activities during university life. Done an internship at CIMB Bank Malaysia, currently employed by 
-                    Hong Long Bank Malaysia as a Java software developer developing and maintaining the hong leong connect banking website for more than 3 years.
+                    Hong Long Bank Malaysia as a Java software developer developing and maintaining the hong leong connect banking website for more than 3 years. Started my journey as a Graduate Trainee and now has been promoted to Senior Executive.
                 </div>
             </div>
         </div>

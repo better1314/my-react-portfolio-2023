@@ -30,7 +30,7 @@ function Mainpage(){
                     <div className='loop'>
                         <TextTransition className='loop-word' springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
                     </div>
-                    <div style={{position : 'relative'}}>
+                    <div>
                         <div className="span-short-description">in Malaysia over 3 years of professional experienced.</div>
                     </div>
                 </div>
