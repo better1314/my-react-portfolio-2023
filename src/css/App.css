@@ -20,11 +20,14 @@
 .snap-scroll-child{
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  height: auto;
 }
 
 .snap-scroll-child-end{
+  scroll-snap-stop: always;
   scroll-snap-align: end;
-  scroll-margin-top: 200vh;
+  position: relative;
+  height: 7vh;
 }
 
 .header-container {
@@ -346,6 +349,10 @@
     height: none;
   }
 
+  .snap-scroll-child-end{
+    height: 22vh;
+  }
+
   .header-title{
     width: 50%;
     font-size:1em;
@@ -364,10 +371,12 @@
 
   .main-left-content{
     width: 100vw;
+    height: 60vh;
   }
 
   .main-right-content{
     width: 100vw;
+    height:20vh;
   }
 
   .right-content{
@@ -384,6 +393,7 @@
     left: 3%;
     font-size: 0.8rem;
     width: 100%;
+    margin-top: 5px;
   }
 
   .loop{
@@ -426,6 +436,10 @@
 }
 
 @media only screen and (min-width:481px) and (max-width:900px) {/*tablet responsie*/
+  .snap-scroll-child-end{
+    height: 28vh;
+  }
+
   .my-picture{
     width: 100vw;
     height: 80vh;

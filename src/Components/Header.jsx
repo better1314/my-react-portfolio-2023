@@ -7,7 +7,7 @@ function Header(){
     return (
         <>
         <div className='header-container'>
-            <Link to="/" style={{textDecoration : 'none'}}><div className='header-title'>My Portfolio.</div></Link>
+            <Link to="/" onClick={() => window.location.reload()} style={{textDecoration : 'none'}}><div className='header-title'>My Portfolio.</div></Link>
             <div className='header-button'>
                 <a href = {Pdf} target = "_blank" rel="noreferrer"><button type="button">Full Resume</button></a>
             </div> 
