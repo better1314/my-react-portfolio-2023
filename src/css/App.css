@@ -139,6 +139,10 @@
   font-weight: bold;
 }
 
+.loopingWordDiv{
+  height: 45px;
+}
+
 .span-a{
   position:absolute;
   left:30%;
@@ -389,11 +393,14 @@
     left:17%;
   }
 
+  .loopingWordDiv{
+    height: 40px;
+  }
+
   .span-short-description{
     left: 3%;
     font-size: 0.8rem;
     width: 100%;
-    margin-top: 5px;
   }
 
   .loop{

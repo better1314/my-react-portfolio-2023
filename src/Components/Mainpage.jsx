@@ -24,11 +24,13 @@ function Mainpage(){
             <div className='main-right-content'>
                 <div className='right-content'>
                     Hi, I'm Gan Zhi Kiat.
-                    <div style={{position : 'relative'}}>
-                        <div className="span-a">A</div>
-                    </div>
-                    <div className='loop'>
-                        <TextTransition className='loop-word' springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
+                    <div className="loopingWordDiv">
+                        <div style={{position : 'relative'}}>
+                            <div className="span-a">A</div>
+                        </div>
+                        <div className='loop'>
+                            <TextTransition className='loop-word' springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
+                        </div>
                     </div>
                     <div>
                         <div className="span-short-description">in Malaysia over 3 years of professional experienced.</div>
